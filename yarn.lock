@@ -85,7 +85,7 @@
   "resolved" "https://registry.npmjs.org/@alfalab/stylelint-core-vars/-/stylelint-core-vars-1.3.0.tgz"
   "version" "1.3.0"
 
-"@alfalab/utils@^1.5.0":
+"@alfalab/utils@^1.5.0", "@alfalab/utils@^1.7.0":
   "integrity" "sha512-bhGOA6Ebx8Rm2OqsAepfwlkOFP3LsMMXxXFRlOjzf4ElQMwcmy9+ORjt+XPa8KAf2npcXsba5Zr8nPIHaO/cOQ=="
   "resolved" "https://registry.npmjs.org/@alfalab/utils/-/utils-1.7.0.tgz"
   "version" "1.7.0"
