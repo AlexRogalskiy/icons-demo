@@ -37,8 +37,10 @@ module.exports = {
         extensions: ['.tsx', '.ts', '.js', '.jsx']
     },
     output: {
-        filename: 'dist/index.[hash].js',
-        path: path.resolve(__dirname),
+        filename: '[name].[hash:8].js',
+        path: path.resolve(__dirname, 'dist'),
+        sourceMapFilename: '[name].[hash:8].map',
+        chunkFilename: '[id].[hash:8].js'
     },
     optimization: {
         splitChunks: {
@@ -46,7 +48,10 @@ module.exports = {
         },
     },
     devServer: {
-        contentBase: path.join(__dirname),
+        static: {
+            directory: path.join(__dirname),
+            staticOptions: {},
+        },
         compress: true,
         port: 3000,
     },
