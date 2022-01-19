@@ -52,6 +52,7 @@
         "@alfalab/core-components-mq": "^3.0.1",
         "@alfalab/icons": "^3.8.0",
         "@alfalab/utils": "^1.7.0",
+        "@alfalab/data": "^1.1.0",
         "@types/react-highlight": "^0.12.5",
         "@types/react-modal": "^3.13.1",
         "camelcase": "^6.3.0",
